@@ -1,2 +1,6 @@
-# Travel_Website
-## Built using HTML,CSS,JavaScript
+# Tourist Exploration Website
+
+###  
+
+- Travel website to the most beautiful beaches, using HTML, CSS & JAVASCRIPT.
+

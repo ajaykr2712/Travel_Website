@@ -1,0 +1,98 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+.navigation-menu.show-menu {
+  display: block;
+}
+
+/* Hide the navigation menu by default */
+.navigation-menu {
+  display: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0; /* Beautiful background color */
+  background-image: url('travel.jpeg'); /* Add your image URL here */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Homepage hero section styles */
+.hero {
+  text-align: center;
+  color: #fff;
+  padding: 150px 0;
+  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent overlay on top of the background image */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+/* Search form styles */
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form button {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="date"] {
+  margin-right: 10px;
+}
+
+/* Top destinations section styles */
+.top-destinations {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.top-destinations h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-destinations li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.top-destinations ul {
+  list-style: none;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
