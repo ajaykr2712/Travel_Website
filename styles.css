@@ -1,8 +1,10 @@
-/* Reset some default styles for consistency */
+/* Reset default styles for consistency */
 body, h1, h2, h3, p, ul, li, form {
   margin: 0;
   padding: 0;
 }
+
+/* Show the navigation menu when active */
 .navigation-menu.show-menu {
   display: block;
 }
@@ -11,11 +13,13 @@ body, h1, h2, h3, p, ul, li, form {
 .navigation-menu {
   display: none;
 }
+
+/* Body styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f0f0f0; /* Beautiful background color */
-  background-image: url('travel.jpeg'); /* Add your image URL here */
+  background-color: #f0f0f0; /* Background color */
+  background-image: url('travel.jpeg'); /* Background image URL */
   background-size: cover;
   background-position: center;
 }
@@ -38,7 +42,7 @@ nav a {
   text-align: center;
   color: #fff;
   padding: 150px 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent overlay on top of the background image */
+  background-color: rgba(0, 0, 0, 0.6); /* Overlay on background image */
 }
 
 .hero h1 {
@@ -87,7 +91,6 @@ nav a {
 .top-destinations ul {
   list-style: none;
 }
-
 
 /* Footer styles */
 footer {
