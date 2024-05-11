@@ -1,7 +1,11 @@
 /* Reset default styles for consistency */
+:root {
+  --margin-padding: 0;
+}
+
 body, h1, h2, h3, p, ul, li, form {
-  margin: 0;
-  padding: 0;
+  margin: var(--margin-padding);
+  padding: var(--margin-padding);
 }
 
 /* Show the navigation menu when active */
@@ -16,8 +20,10 @@ body, h1, h2, h3, p, ul, li, form {
 
 /* Body styles */
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  --font-primary: Arial, sans-serif;
+  --line-height: 1.6;
+  font-family: var(--font-primary);
+  line-height: var(--line-height);
   background-color: #f0f0f0; /* Background color */
   background-image: url('travel.jpeg'); /* Background image URL */
   background-size: cover;
@@ -26,13 +32,15 @@ body {
 
 /* Navigation bar styles */
 nav {
-  background-color: #333;
-  color: #fff;
+  --background-nav: #333;
+  --text-color: #fff;
+  background-color: var(--background-nav);
+  color: var(--text-color);
   padding: 10px;
 }
 
 nav a {
-  color: #fff;
+  color: var(--text-color);
   text-decoration: none;
   margin-right: 20px;
 }
@@ -40,7 +48,7 @@ nav a {
 /* Homepage hero section styles */
 .hero {
   text-align: center;
-  color: #fff;
+  color: var(--text-color);
   padding: 150px 0;
   background-color: rgba(0, 0, 0, 0.6); /* Overlay on background image */
 }
@@ -94,8 +102,8 @@ nav a {
 
 /* Footer styles */
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: var(--background-nav);
+  color: var(--text-color);
   text-align: center;
   padding: 20px;
 }
