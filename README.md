@@ -8,4 +8,7 @@ Beach Explorer is a travel website designed to help tourists explore and discove
 - Read reviews from fellow travelers and share your own experiences.
 - Get essential travel tips and recommendations for each destination.
 - Save your favorite beaches for future reference.
-
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
